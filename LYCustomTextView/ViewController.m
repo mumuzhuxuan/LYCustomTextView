@@ -19,11 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CGRect textViewRect = CGRectMake(0, 100, self.view.bounds.size.width , 60);
+    CGRect textViewRect = CGRectMake(0, 100, self.view.bounds.size.width , 100);
     //初始化 1
     self.textView = [[LYTextView alloc] initWithFrame:textViewRect
                                                   placeHolder:@"你是一只小青蛙"
-                                                       maxNum:500];
+                                                       maxNum:100];
     //初始化 2
 //    self.textView = [[LYTextView alloc] initWithFrame:self.textViewRect];
     [self.view addSubview:self.textView];
